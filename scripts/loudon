@@ -1,0 +1,15 @@
+#!/bin/bash
+	
+tmux has-session -t loudon
+
+if [ $? != 0 ]; then 
+	tmux new-session -s loudon -d
+	tmux send-keys -t loudon 'cd ~/dev/c/loudon' C-m
+	tmux send-keys -t loudon C-l
+	tmux split-window -v -t loudon
+	tmux send-keys -t loudon:0.1 'cd ~/dev/c/loudon' C-m
+	tmux send-keys -t loudon:0.1 C-l
+	tmux select-layout -t loudon main-horizontal
+fi
+
+tmux attach -t loudon

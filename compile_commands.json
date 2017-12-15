@@ -1,0 +1,98 @@
+[
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-std=c11", 
+            "-Wall", 
+            "-pedantic", 
+            "-fPIC", 
+            "-Iinclude", 
+            "-o", 
+            "build/qksort.o", 
+            "src/qksort.c"
+        ], 
+        "directory": "/home/pi/dev/c/loudon", 
+        "file": "src/qksort.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-std=c11", 
+            "-Wall", 
+            "-pedantic", 
+            "-fPIC", 
+            "-Iinclude", 
+            "-o", 
+            "build/clist.o", 
+            "src/clist.c"
+        ], 
+        "directory": "/home/pi/dev/c/loudon", 
+        "file": "src/clist.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-std=c11", 
+            "-Wall", 
+            "-pedantic", 
+            "-fPIC", 
+            "-Iinclude", 
+            "-o", 
+            "build/dlist.o", 
+            "src/dlist.c"
+        ], 
+        "directory": "/home/pi/dev/c/loudon", 
+        "file": "src/dlist.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-std=c11", 
+            "-Wall", 
+            "-pedantic", 
+            "-fPIC", 
+            "-Iinclude", 
+            "-o", 
+            "build/slist.o", 
+            "src/slist.c"
+        ], 
+        "directory": "/home/pi/dev/c/loudon", 
+        "file": "src/slist.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-std=c11", 
+            "-Wall", 
+            "-pedantic", 
+            "-fPIC", 
+            "-Iinclude", 
+            "-o", 
+            "build/isort.o", 
+            "src/isort.c"
+        ], 
+        "directory": "/home/pi/dev/c/loudon", 
+        "file": "src/isort.c"
+    }, 
+    {
+        "arguments": [
+            "cc", 
+            "-c", 
+            "-std=c11", 
+            "-Wall", 
+            "-pedantic", 
+            "-fPIC", 
+            "-Iinclude", 
+            "-o", 
+            "build/cdlist.o", 
+            "src/cdlist.c"
+        ], 
+        "directory": "/home/pi/dev/c/loudon", 
+        "file": "src/cdlist.c"
+    }
+]
