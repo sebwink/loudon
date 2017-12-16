@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# works in OpenSUSE ...
+sudo cpupower frequency-set -g performance
+
+./$1 ${@:2}
+
+sudo cpupower frequency-set -g ondemand

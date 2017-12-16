@@ -5,10 +5,10 @@ INCLUDE=-Iinclude
 
 objects = $(patsubst src/%.c, build/%.o, $(wildcard src/*.c))
 
-lib/liboudon.so : $(objects)
+lib/liboudon.so : $(objects) 
 	$(CC) -shared $^ -o $@ 
 
-build/%.o : src/%.c include/loudon/%.h
+build/%.o : src/%.c include/loudon/%.h 
 	$(CC) $(CCFLAGS) $(INCLUDE) -o $@ -c $<
 
 clean :
